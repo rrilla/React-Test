@@ -12,6 +12,7 @@ const Serach = () => {
     top: 10px;
     left: 50px;
     padding: 20px 30px; /* 세로 가로, 4개 입력시 12시부터 시계방향으로  */
+    box-shadow: 0 2px 2px 0 rgb(214, 214, 214);
   `;
 
   const SerachTitleS = styled.div`
