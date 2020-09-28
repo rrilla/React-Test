@@ -2,7 +2,7 @@
 
 ### 사진
 
-![main]](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnr3vICRBt_nxp_KqqPt6UcDdYLu6cjUf0g&usqp=CAU)
+![main](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqnr3vICRBt_nxp_KqqPt6UcDdYLu6cjUf0g&usqp=CAU)
 
 ### 설치
 
