@@ -37,7 +37,10 @@ const Main = () => {
   `;
 
   const CardContentS = styled.div`
+    display: grid;
     align-items: center;
+    font-weight: 600;
+    margin: 0 0 0 10px;
   `;
 
   const CardImgS = styled.div`
@@ -68,6 +71,7 @@ const Main = () => {
 
   const ChooImgS = styled.div`
     height: 250px;
+    background-size: 100% 100%;
   `;
 
   const SectionContentS = styled.div`
@@ -81,19 +85,29 @@ const Main = () => {
     grid-gap: 10px;
   `;
 
-  const HomeS = styled.div``;
-
   const HomeImgS = styled.div`
     height: 180px;
+    background-size: 100% 100%;
   `;
 
-  const HomeInfoS = styled.div``;
-  const HomeInfo1S = styled.div``;
+  const HomeInfo1S = styled.div`
+    margin: 5px 0;
+    font-size: 13px;
+    color: gray;
+  `;
   const HomeInfo2S = styled.div`
-    color: rgb(68, 66, 66);
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(61, 60, 60);
   `;
-  const HomeInfo3S = styled.div``;
-
+  const StarS = styled.span`
+    font-size: 12px;
+    color: rgb(30, 119, 115);
+    font-weight: 800;
+  `;
+  const CountS = styled.span`
+    font-size: 12px;
+  `;
   return (
     <MainS>
       <SectionS>
@@ -163,12 +177,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home1.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">오두막 · BALIAN BEACH, BALI</div>
+              <HomeInfo1S>오두막 · BALIAN BEACH, BALI</HomeInfo1S>
               <HomeInfo2S>BALIAN TREEHOUSE w beautiful pool</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">185</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>185</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -178,12 +192,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home2.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">키클라데스 주택 · 이아(OIA)</div>
+              <HomeInfo1S>키클라데스 주택 · 이아(OIA)</HomeInfo1S>
               <HomeInfo2S>Unique Architecture Cave House</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">188</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>188</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -193,12 +207,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home3.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">성 · 트웬티나인 팜스(TWENTYNINE PALMS)</div>
+              <HomeInfo1S>성 · 트웬티나인 팜스(TWENTYNINE PALMS)</HomeInfo1S>
               <HomeInfo2S>Tile House</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">367</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>367</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -208,14 +222,14 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home4.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">검증됨 · 케이프타운</div>
+              <HomeInfo1S>검증됨 · 케이프타운</HomeInfo1S>
               <HomeInfo2S>
                 Modern, Chic Penthouse with Mountain, City & Sea Views
               </HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">177</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>177</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -225,12 +239,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home5.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">아파트 전체 · 마드리드(MADRID)</div>
+              <HomeInfo1S>아파트 전체 · 마드리드(MADRID)</HomeInfo1S>
               <HomeInfo2S>솔광장에 위치한 개인 스튜디오</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">459</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>459</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -240,12 +254,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home6.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">집 전체 · HUMAC</div>
+              <HomeInfo1S>집 전체 · HUMAC</HomeInfo1S>
               <HomeInfo2S>Vacation house in etno-eco village Humac</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">119</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>119</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -255,12 +269,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home7.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">개인실 · 마라케시</div>
+              <HomeInfo1S>개인실 · 마라케시</HomeInfo1S>
               <HomeInfo2S>The Cozy Palace</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">559</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>559</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
@@ -270,12 +284,12 @@ const Main = () => {
               style={{ backgroundImage: "url('images/home8.png')" }}
             ></HomeImgS>
             <div class="home__info">
-              <div class="info1">게스트용 별채 전체 · 로스앤젤레스</div>
+              <HomeInfo1S>게스트용 별채 전체 · 로스앤젤레스</HomeInfo1S>
               <HomeInfo2S>Private Pool House with Amazing Views!</HomeInfo2S>
               <div class="info3">
-                <span class="star">★★★★★</span>
-                <span class="count">170</span>
-                <span class="type">슈퍼호스트</span>
+                <StarS>★★★★★</StarS>
+                <CountS>170</CountS>
+                <CountS>슈퍼호스트</CountS>
               </div>
             </div>
           </div>
