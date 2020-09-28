@@ -16,7 +16,7 @@ const Header = () => {
         <div>로고</div>
         <div>메뉴</div>
       </NavS>
-      <Section1S>첫번째 섹션 영역</Section1S>
+      <Section1S>첫번째 섹 영역</Section1S>
     </div>
   );
 };
